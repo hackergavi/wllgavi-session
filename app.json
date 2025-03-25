@@ -1,7 +1,7 @@
 {
-  "name": "SILENT-SOBX-MD",
+  "name": "wllgavi-MD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
-  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
+  "logo": "https://files.catbox.moe/9si4ft.png",
   "keywords": ["bot"],
   "success_url": "/",
 
@@ -16,7 +16,7 @@
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
       "required": true,
-      "value": "https://telegra.ph/file/2a06381b260c3f096a612.jpg"
+      "value": "https://files.catbox.moe/9si4ft.png"
     }, 
     
     "ALIVE_MSG": {
@@ -101,7 +101,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ✦"
+      "value": "✦wllgavu-ᴍᴅ✦"
     }, 
 
     "HEART_REACT": {
@@ -118,12 +118,12 @@
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "POWERED BY SILENTLOVER432"
+      "value": "POWERED BY wllgavi"
     }, 
     "STATUS_REPLY": {
       "description": "enter your caption if you want to show on status reply.",
       "required": false,
-      "value": "➺үσυя sтαтυs sεεη נυsт ησω вү sιℓεηт-sσвx-м∂"
+      "value": "➺үσυя sтαтυs sεεη נυsт ησω вү wllgavi"
     },
     "AUTO_REPLY_STATUS": {
       "description": "you can true or false it.",
@@ -161,14 +161,14 @@
     "OWNER_NUMBER": {
       "description": "replace it with your own number.",
       "required": false,
-      "value": "923096287432"
+      "value": "254755835054"
     
     }, 
 
      "OWNER_NAME": {
       "description": "replace it with your own name.",
       "required": false,
-      "value": "➺ѕเℓεɳƭ_ℓσѵε૨࿐"
+      "value": "➺wllgavi"
     
      }
 },
