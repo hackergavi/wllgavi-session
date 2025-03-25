@@ -3,7 +3,6 @@
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
   "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
   "keywords": ["bot"],
-"repository": "https://github.com/hackergavi/wllgavi-session",
   "success_url": "/",
 
     "stack": "container",
@@ -40,7 +39,7 @@
 
     "AUTO_VOICE": {
       "description": "Make it true if you want bot auto voice.",
-      "per-Md",required": true,
+      "required": true,
       "value": "true"
     }, 
 
