@@ -1,24 +1,17 @@
-
 {
-    "name": "wllgavi-md",
-    "description": "Web Session Generator",
-    "logo": "image url",
-    "repository": "https://github.com/hackergavi/wllgavi-sesssion",
-    "keywords": ["wllgavi-Tech"],
-    "success_url": "/", 
-    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
-    "env": {      
-      "PORT": {
-        "description": "Port for web app.4000,5000,3000... any!",
-        "value": "5000",
-        "required": false 
-      },
-      "qoraal": {
-        "description": "Just Leave This Blank",
-        "value": "",
-        "required": false 
-      },
-    "env": {
+  "name": "SKIPPER-2.0",
+  "description": "bot whatsapp déveloped by TONNY",
+  "keywords": [
+    "bot",
+    "node",
+    "baileys",
+    "whatsapp"
+  ],
+  "logo": "https://files.catbox.moe/dy41tw.jpg",
+  "repository": "https://github.com/hackergavi/wllgavi-session",
+  "succes_url": "/",
+  "stack": "container",
+  "env": {
     "PREFIX": {
       "description": "choose your prefix of bot",
       "value": ".",
@@ -120,4 +113,3 @@
     }
   ]
 }
-
