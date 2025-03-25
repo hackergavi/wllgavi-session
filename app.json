@@ -1,0 +1,11 @@
+
+{
+    "name": "wllgavi-session",
+    
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ wllgavi",
+  "logo": "https://files.catbox.moe/9si4ft.png",
+  "keywords": ["bot"],
+  "success_url": "/",
+
