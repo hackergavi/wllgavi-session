@@ -1,7 +1,7 @@
 
 ### DEPLOYMENT
  
-<a href='https://dashboard.heroku.com/new?template=https://github.com/hacker gavi/wllgavi-session' target="_blank"><img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/hackergay/wllgavi-session' target="_blank"><img alt='HEROKU DEPLOY' src='https://img.shields.io/badge/-HEROKU DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
  <br>
 <a href='https://dashboard.render.com' target="_blank">
     <img alt='DEPLOY TO RENDER' src='https://img.shields.io/badge/-DEPLOY TO RENDER-black?style=for-the-badge&logo=render&logoColor=white'/>
@@ -14,6 +14,6 @@
 
 # `Owner`
 
- <a href="https://github.com/hackergavi"><img src="https://github.com/wllgavi-session.png" width="250" height="250" alt="wllgavi Tech"/></a>
+ <a href="https://github.com/hackergavi"><img src="https://github.com/hackergavi.png" width="250" height="250" alt="Malvin Tech"/></a>
 
    
