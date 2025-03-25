@@ -1,115 +1,184 @@
 {
-  "name": "SKIPPER-2.0",
-  "description": "bot whatsapp déveloped by TONNY",
-  "keywords": [
-    "bot",
-    "node",
-    "baileys",
-    "whatsapp"
-  ],
-  "logo": "https://files.catbox.moe/dy41tw.jpg",
-  "repository": "https://github.com/hackergavi/wllgavi-session",
-  "succes_url": "/",
-  "stack": "container",
+  "name": "SILENT-SOBX-MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ sɪʟᴇɴᴛʟᴏᴠᴇʀ⁴³²",
+  "logo": "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
+  "keywords": ["bot"],
+"repository": "https://github.com/hackergavi/wllgavi-session",
+  "success_url": "/",
+
+    "stack": "container",
   "env": {
-    "PREFIX": {
-      "description": "choose your prefix of bot",
-      "value": ".",
-      "required": true
-    },
-    "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
-    },
-    "PM_PERMIT": {
-      "description": "Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
-    },
-    "BOT_NAME": {
-      "description": "put A name for your bot",
-      "value": "𝐒𝐊𝐈𝐏𝐏𝐄𝐑-𝐌𝐃",
-      "required": false
-    },
-    "BOT_MENU_LINKS": {
-      "description": "add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value": "https://files.catbox.moe/dy41tw.jpg",
-      "required": false
-    },
-    "PUBLIC_MODE": {
-      "description": "type yes to put your bot on public mode or no to put it on private mod",
-      "value": "yes",
-      "required": false
-    },
-    "HEROKU_APY_KEY": {
-      "description": "insert your heroku api-key (this is optionnal)",
-      "required": false
-    },
-    "HEROKU_APP_NAME": {
-      "description": "insert your heroku APP NAME (this is optionnal)",
-      "required": false
-    },
     "SESSION_ID": {
-      "description": "put your session ID , the code you receive after scanning Qr code",
-      "value": "",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "desc": "Your Name",
-      "required": false,
-      "value": "Tonny408"
-    },
-    "NUMERO_OWNER": {
-      "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-      "required": false,
-      "value": "254798780465"
-    },
-    "WARN_COUNT": {
-      "desc": "this is the limit of warn for warning commandes",
-      "required": false,
-      "value": "3"
-    },
-    "STARTING_BOT_MESSAGE": {
-      "description": "if you don't want startting-bot-message put no else put yes",
+      "description": "Put the session-id here.",
       "required": true,
-      "value": "yes"
+      "value": ""
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
+      "required": true,
+      "value": "https://telegra.ph/file/2a06381b260c3f096a612.jpg"
+    }, 
+    
+    "ALIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "required": true,
+      "value": "ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ɪᴍ ᴀʟɪᴠᴇ ɴᴏᴡ.!!"
     },
-    "PRESENCE": {
-      "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-      "value": "2",
-      "required": false
+    
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": true,
+      "value": "."
     },
-    "PM_CHATBOT": {
-      "description": "Put yes if you want the bot to automatically respond to messages in private",
+    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    }, 
+
+    "AUTO_VOICE": {
+      "description": "Make it true if you want bot auto voice.",
+      "per-Md",required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": "Make it true if you want bot auto reply.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_STICKER": {
+      "description": "Make it true if you want bot auto sticker.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_READ_STATUS": {
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+    },
+
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ANTI_DEL_PATH": {
+      "description": "type here log if you want detected antidelete in conn.id.",
       "required": false,
-      "value": "no"
+      "value": "same"
+    }, 
+
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "required": true,
+      "value": "false"
     },
-    "ANTI_VIEW_ONCE": {
-      "description": "Put yes if you want to receive in pm all view once content",
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
+      "required": true,
+      "value": "true"
+    },
+
+    "OWNER_REACT": {
+      "description": "Make it true if you want bot OwnerReact.",
+      "required": true,
+      "value": "true"
+    
+    }, 
+
+    "BOT_NAME": {
+      "description": "write hear your name.",
+      "required": true,
+      "value": "✦sɪʟᴇɴᴛ-sᴏʙx-ᴍᴅ✦"
+    }, 
+
+    "HEART_REACT": {
+      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
+      "required": true,
+      "value": "false"
+    }, 
+    "CAPTION": {
+      "description": "enter your caption if you want to show on menu.",
+      "required": true,
+      "value": "POWERED BY SILENTLOVER432"
+    }, 
+    "STATUS_REPLY": {
+      "description": "enter your caption if you want to show on status reply.",
       "required": false,
-      "value": "yes"
+      "value": "➺үσυя sтαтυs sεεη נυsт ησω вү sιℓεηт-sσвx-м∂"
     },
-      "ANTI_COMMAND_SPAM" : {
-        "description":"active a cooldown of 10sec to every-user after a command to avoid spamming unless owner and mods",
-        "required":false,
-        "value" :"no"
-      }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "standard-2x"
-    }
-  },
-  "addons": [
-    {
-      "plan": "heroku-postgresql:essential-0"
-    }
-  ]
+    "AUTO_REPLY_STATUS": {
+      "description": "you can true or false it.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "ALWAYS_ONLINE": {
+      "description": "make it true if you want to show always online.",
+      "required": true,
+      "value": "true"
+    }, 
+    "FAKE_TYPING": {
+      "description": "make it true if you want to show fake typing.",
+      "required": true,
+      "value": "true"
+    }, 
+    "CURRENT_STATUS": {
+      "description": "make it true if you to show your reail last seen.",
+      "required": true,
+      "value": "false"
+    }, 
+    "READ_CMD": {
+      "description": "make it true if you want bot auto read commands",
+      "required": true,
+      "value": "true"
+
+    }, 
+    "STATUS_REACT": {
+      "description": "make it true if you want to show on status react.",
+      "required": true,
+      "value": "true"
+    },
+
+    "OWNER_NUMBER": {
+      "description": "replace it with your own number.",
+      "required": false,
+      "value": "923096287432"
+    
+    }, 
+
+     "OWNER_NAME": {
+      "description": "replace it with your own name.",
+      "required": false,
+      "value": "➺ѕเℓεɳƭ_ℓσѵε૨࿐"
+    
+     }
+},
+
+     
+"buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
 }
