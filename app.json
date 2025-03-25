@@ -3,8 +3,8 @@
     "name": "session name",
     "description": "Web Session Generator",
     "logo": "image url",
-    "repository": "https://github.com/username/sesssion name",
-    "keywords": ["Malvin-Tech"],
+    "repository": "https://github.com/hackergavi/wllgavi-sesssion",
+    "keywords": ["wllgavi-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
@@ -17,7 +17,7 @@
         "description": "Just Leave This Blank",
         "value": "",
         "required": false 
-        
-    }
-  ]
+      }
+    }   
+
 }
