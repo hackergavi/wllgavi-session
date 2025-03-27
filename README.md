@@ -1,7 +1,7 @@
 # wllgavi-MD
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 MALVIN KING 🌝💚
+𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 wllgavi  🌝💚
 <div class = "repo" align = "center">
  
 <a href = "#">
@@ -24,7 +24,7 @@
 
 > To deploy, generate your session ID from the link below:
 <p align="left">
-  <a href="https://gavi-pair-code-xzcb.onrender.com/?">
+  <a href="http://localhost:8080/Wll%20gavi.html-pair-code-xzcb.onrender.com/?">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
