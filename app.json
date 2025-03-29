@@ -13,11 +13,10 @@
         "value": "5000",
         "required": false 
       },
-      "env": {
-    "PREFIX": {
-      "description": "Choose your bot's prefix",
-      "value": ".",
-      "required": true
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
     
     }
   ]
