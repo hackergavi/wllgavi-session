@@ -3,7 +3,7 @@
     "name": "wllgavi-session",
     "description": "Web Session Generator",
     "logo": "image url",
-    "repository": "https://github.com/hackergavi/wllgavi-session",
+    "repository": "https://github.com/Hackergavi/wllgavi-session",
     "keywords": ["Malvin-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
@@ -17,8 +17,7 @@
         "description": "Just Leave This Blank",
         "value": "",
         "required": false 
-    
-    }
-  ]
-}
+      }
+    }   
 
+}
